@@ -6,7 +6,7 @@
 
 ## 🧬 Model Structure
 &nbsp;&nbsp;&nbsp;&nbsp; MFPep-AAF is designed to identify multifuntional peptides by integrating complementary information from protein sequence and structure at the amino acid level. As illustrated in Figure 1, it comprises two primary phases: multimodal feature extraction and feature fusion. In the feature extraction phase, two distinct modalities of amino acid-level features are extracted. The first modality captures evolutionary sequence information using a fine-tuned ESM2 model. The second modality encodes structural information using GATs, where nodes correspond to amino acids, initialized from a combination of one-hot encoding, HMM encoding, and position encoding. Edges are constructed based on inter-residue contact maps predicted by Rosetta, allowing the GAT to model the structural context of the sequence. Together, these two modalities provide a complementary and fine-grained representation at the amino acid level. In the multimodal fusion phase, a cross-modality attention mechanism is applied to integrate the extracted and GAT features at amino acid-level. The fused feature representation is then concatenated with the original modality-specific features to form a comprehen- sive final sequence representation. This enriched representation effectively leverages both sequence and structural information, subsequently used for multifunctional pep- tide identification. 
-<div align=center><img src=img/framework.pdf></div>
+<div align=center><img src=img/framework.png></div>
 
 ## Requirements
 The majoy dependencies used in this project are as following:
