@@ -117,10 +117,4 @@ It takes 3 steps to train/test our model:
 `train.py` and `test.py` are used for training and testing, respectively. 
 Running `python train.py -h` and `python test.py -h` to learn the meaning of each parameter.
 
-## 🚀 Train
-```
-
-
-## 🧐 Prediction
-```
 
