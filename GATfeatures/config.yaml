@@ -1,0 +1,11 @@
+# Tools
+psiblast: /geniusland/home/huangjinpeng/MyModel/utils/psiblast
+hhblits: /geniusland/home/huangjinpeng/MyModel/utils/hhblits
+rosetta: /geniusland/home/huangjinpeng/MyModel/utils/trRosetta/predict_many.py
+
+# Databases and model
+nrdb90: /geniusland/home/huangjinpeng/MyModel/utils/psiblast/nrdb90/nrdb90
+nr: /geniusland/home/huangjinpeng/MyModel/utils/psiblast/nr_New/nr
+uniclust: /geniusland/home/huangjinpeng/MyModel/utils/hhblits/uniclust30_2018_08/uniclust30_2018_08
+rosetta_model: /geniusland/home/huangjinpeng/MyModel/utils/trRosetta/model2019_07
+
